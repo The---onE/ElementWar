@@ -1,0 +1,52 @@
+#include "InformationData.h"
+
+const float SPRITE_SIZE = 0.1f;
+const float SPRITE_CENTER_X = 0.05f * WIDTH;
+const float SPRITE_TOP_CENTER_Y = 0.7f * HEIGHT;
+const float SPRITE_INTERVAL_Y = 0.1f * HEIGHT;
+const float INFORMATION_LEFT_X = 0.08f * WIDTH;
+
+const float METAL_SPRITE_Y = SPRITE_TOP_CENTER_Y - SPRITE_INTERVAL_Y * 1.5;
+const float WOOD_SPRITE_Y = SPRITE_TOP_CENTER_Y - SPRITE_INTERVAL_Y * 0;
+const float EARTH_SPRITE_Y = SPRITE_TOP_CENTER_Y - SPRITE_INTERVAL_Y * 2.5;
+const float WATER_SPRITE_Y = SPRITE_TOP_CENTER_Y - SPRITE_INTERVAL_Y * 5;
+const float FIRE_SPRITE_Y = SPRITE_TOP_CENTER_Y - SPRITE_INTERVAL_Y * 4;
+
+const Point METAL_SPRITE_POSITION = Point(SPRITE_CENTER_X, METAL_SPRITE_Y);
+const Point WOOD_SPRITE_POSITION = Point(SPRITE_CENTER_X, WOOD_SPRITE_Y);
+const Point EARTH_SPRITE_POSITION = Point(SPRITE_CENTER_X, EARTH_SPRITE_Y);
+const Point WATER_SPRITE_POSITION = Point(SPRITE_CENTER_X, WATER_SPRITE_Y);
+const Point FIRE_SPRITE_POSITION = Point(SPRITE_CENTER_X, FIRE_SPRITE_Y);
+
+const Point METAL_INFORMATION_POSITION = Point(INFORMATION_LEFT_X, METAL_SPRITE_Y);
+const Point WOOD_INFORMATION_POSITION = Point(INFORMATION_LEFT_X, WOOD_SPRITE_Y);
+const Point EARTH_INFORMATION_POSITION = Point(INFORMATION_LEFT_X, EARTH_SPRITE_Y);
+const Point WATER_INFORMATION_POSITION = Point(INFORMATION_LEFT_X, WATER_SPRITE_Y);
+const Point FIRE_INFORMATION_POSITION = Point(INFORMATION_LEFT_X, FIRE_SPRITE_Y);
+
+const string CHAOS_SPRITE_IMG = "chaos.png";
+const string METAL_SPRITE_IMG = "metal.png";
+const string WOOD_SPRITE_IMG = "wood.png";
+const string EARTH_SPRITE_IMG = "earth.png";
+const string WATER_SPRITE_IMG = "water.png";
+const string FIRE_SPRITE_IMG = "fire.png";
+
+const string INFORMATION_FONT = "fonts/SourceHanSans.otf";
+const int INFORMATION_FONTSIZE = 100;
+const float INFORMATION_SIZE = 0.08f;
+const Color3B METAL_COLOR = Color3B::YELLOW;
+const Color3B WOOD_COLOR = Color3B::GREEN;
+const Color3B EARTH_COLOR = Color3B::GRAY;
+const Color3B WATER_COLOR = Color3B::BLUE;
+const Color3B FIRE_COLOR = Color3B::RED;
+
+const Color3B HEALTH_COLOR = Color3B::WHITE;
+const Point HEALTH_POSITION = Point(WIDTH / 4, HEIGHT);
+
+const Color3B ENELM_HEALTH_COLOR = Color3B::WHITE;
+const Point ENEMY_HEALTH_POSITION = Point(WIDTH * 3 / 4, HEIGHT);
+
+const string HEALTH_IMG = "health.png";
+const string ENEMY_HEALTH_IMG = "enemy.png";
+
+const float HEALTH_SIZE = 0.08f;
